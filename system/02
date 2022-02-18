@@ -1,0 +1,5 @@
+sudo hostname username
+
+# the command to change the hostname permanently:
+# hostnamectl set-hostname username
+# https://www.cyberciti.biz/faq/how-to-change-hostname-on-debian-10-linux/Q

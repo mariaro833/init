@@ -1,0 +1,4 @@
+df -h
+
+# man df: displays the amount of disk space available
+# -h prints sizes in powers of 1024 (e.g., 1023M)

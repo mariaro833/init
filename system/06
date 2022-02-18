@@ -1,0 +1,4 @@
+sudo service ssh restart
+
+# https://www.cyberciti.biz/faq/how-do-i-restart-sshd-daemon-on-linux-or-unix/
+# Name the command that reboots the SSH service

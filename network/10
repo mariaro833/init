@@ -1,0 +1,10 @@
+traceroute who.int
+
+# Traceroute allows you to trace the path of packets sent from your computer to every system between you and a destination, in this case the who.int domain.
+# It uses the IP time-to-live field and tries to get an ICMP TIME_EXCEEDED response from every gateway on the way to one of the hosts. ICMP stands for Internet Control.
+Message protocol.
+# By default, traceroute sends three packets of data to test each hop, which explains the three timings. This time indicates how long it takes for a packet to reach its destination and route the ICMP message back to the source.
+# Some hops can only return a 3-asterisk set. This can mean one of two things:
+# 1. The device in this transition was not configured to respond to ICMP/UDP traffic, but the message was forwarded nonetheless.
+# 2. Packets were lost due to a network problem.
+# Since the traceroute was successful, this probably means that the responses marked with an asterisk (*) were because the devices were not configured for ICMP/UDP traffic.

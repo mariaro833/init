@@ -1,0 +1,4 @@
+ifconfig en1 | grep ether
+
+# The Wi-fi card is at network interface en1.
+# The command prints out the MAC address for en1

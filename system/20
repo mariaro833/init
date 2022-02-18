@@ -1,0 +1,6 @@
+cat /etc/passwd | cut -d ":" -f1
+
+# List all existing users on the VM
+
+# https://devconnected.com/how-to-list-users-and-groups-on-linux/
+# lists all the users on the system.

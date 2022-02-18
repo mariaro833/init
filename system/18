@@ -1,0 +1,9 @@
+sudo /etc/init.d/ssh stop
+
+# the command that kills ssh service
+
+# sudo systemctl stop ssh
+# sudo service ssh stop
+# to check a status: sudo systemctl status ssh
+
+# https://linuxhint.com/enable-ssh-server-debian/

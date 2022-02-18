@@ -1,0 +1,9 @@
+nslookup who.int | grep "Server"
+
+# Identify the IP address of the DNS server which answers to who.int
+
+# nslookup finds an IP address belonging to DNS that answers a who.int query
+# If the client browser does not have an IP address owned by who.int is cached
+# the query is sent to the recursive solver. Your pc is usually connected to your ISP's server by default.
+# From there, if the IP address is not cached, it is usually only checked against the DNS server, which points to the TLD server, which then points to the authoritative name server.
+# Sometimes an unauthorized response is received, which is usually a DNS that is not the official name server for the domain, but caches previously requested DNS records from previous DNS queries. Usually, using a cache owned by your ISP will speed up the lookup process.

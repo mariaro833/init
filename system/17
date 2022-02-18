@@ -1,0 +1,3 @@
+ssh username@localIP -p port
+
+# ssh maria@127.0.0.1 -p 2222

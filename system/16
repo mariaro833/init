@@ -1,0 +1,8 @@
+cron
+
+# Use crontab to edit the cron table, and schedule jobs
+# crontab -l will list the crontab for current user
+# crontab -e to edit crontab
+# cat /etc/crontab will show how to format the cron jobs
+# man croni
+# https://www.makeuseof.com/tag/linux-task-scheduling-crontab-explainedu

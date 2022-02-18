@@ -1,0 +1,9 @@
+
+# Make the intra.42.fr address reroute to 46.19.122.85
+# If you had root access, you can edit the file via
+# sudo vim /etc/hosts. In practice, however, this is not possible, because
+# we don't have the permissions to change it on a school iMac
+# Then enter the below line to reroute:
+# 46.19.122.85	intra.42.fr
+# And to  confirm by running
+# traceroute intra.42.fr

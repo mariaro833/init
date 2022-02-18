@@ -1,0 +1,6 @@
+/etc/resolv.conf
+
+# Or alternatively
+# /var/run/resolv.conf
+# The IP address of the DNS server can be looked up in the file resolv.conf,
+# whose path is either one of the one above

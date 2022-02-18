@@ -1,0 +1,5 @@
+/etc/debian_version
+
+# also 
+# lsb_release -d
+# hostnamectl

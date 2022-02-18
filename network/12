@@ -1,0 +1,11 @@
+ipconfig getpacket en0 | grep "yiaddr" | sed 's/^.*= //'
+
+# look for server_indentifier (ip) = your DHCP server's IP address
+# this command will also give you a ton of other info such as:
+# yiaddr = Your IP address
+# siaddr = Server Address
+# giaddr = gateway IP address
+# chaddr = Hardware Address
+# Dynamic Host Configuration Protocol (DHCP) is a client/server protocol 
+# that automatically provides an Internet Protocol (IP) host with its IP address 
+# and other related configuration information such as the subnet mask and default gateway.

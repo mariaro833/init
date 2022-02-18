@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "********"
+
+read -p "Specify the username:   " user
+
+grep -e "$user" /etc/passwd > /dev/null && echo "username exists" && exit 1
+read -s -p "password: " password
+echo ""
+read -p "make this user sudoer? type [yes/no]  " sudoer
+
+echo "creating user $user ... "
+
+pass_en=$(echo ${password} | openssl passwd -1 -stdin)
+sudo /usr/sbin/useradd $user -p $pass_en
+
+
+
+
+# how to creat a root
+#su -
+#apt-get install sudo -y
+#usermod -aG sudo yourusername

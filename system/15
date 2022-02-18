@@ -1,0 +1,7 @@
+sudo kill $PID
+
+# Find the command that kills the background command’s process
+
+# PID=$(ps aux | grep "\-f /var/log/syslog" | grep -m1 -v "grep" | awk '{print $2}')
+# or
+# kill -KILL $(jobs -p)

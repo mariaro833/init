@@ -1,0 +1,6 @@
+10.60.1.1
+
+# traceroute who.int | grep "nat" | awk '{print $3}
+# The device is the Network Address Translation (NAT) Server.
+# NAT stores IP addresses, allowing private IP networks using unregistered IP addresses to access the network.
+# Before NAT forwards packets between the networks it connects to, it translates private internal network addresses into legal, globally unique addresses.

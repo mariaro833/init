@@ -1,0 +1,11 @@
+sudo du -shc /var/*/
+
+#  Figure out the exact size of each folder of /var in a humanly un# derstandable way followed by the path of it
+
+# man du: estimate file space usage. Disk space used.
+# -h: human-readable
+# -s: summarize: display only a total for each argument
+# -c: grand total of sizes
+# in order to not list the size of all files, and only show the summary of
+# folder sizes in /var we use -s. That would also need the argument to be
+# /var/*, otherwise it only shows the size of /var

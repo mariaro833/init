@@ -1,0 +1,12 @@
+1. in the graphical interface:
+Log out if necessary, click on the user you want to log in as,
+and type your password.
+
+2. via ssh:
+For example, on my mac, I would open iTerm and type
+
+ssh somebody@[my ip "ip a"] -p 2222 
+
+# there -p specifies the Host port that I've specified in Port Forwarding
+# over at the Debian Virtual Machine settings, and testuser is the user
+# I want to connect to.

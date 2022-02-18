@@ -1,0 +1,4 @@
+uptime
+
+# Also, uptime -since,  uptime -since, who -b or last reboot | head -1
+# https://www.cyberciti.biz/tips/linux-last-reboot-time-and-date-find-out.html"

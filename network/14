@@ -1,0 +1,10 @@
+/etc/hosts
+
+# What file contains the local DNS entries?
+
+# https://support-acquia.force.com/s/article/360004175973-Using-an-etc-hosts-file-for-custom-domains-during-development
+# https://www.tecmint.com/setup-local-dns-using-etc-hosts-file-in-linux/
+
+# /etc/hosts stores the mapping of hostnames to IP addresses before DNS can be
+# referenced. You can see from the output of the command, a mapping between
+# localhost and its IP address, localhost just means "this computer"

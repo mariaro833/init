@@ -1,0 +1,3 @@
+ifconfig -l
+
+# Gets a list of network interfaces for the machine without displaying details for these interfaces

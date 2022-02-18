@@ -1,0 +1,6 @@
+apt list --installed
+
+# the command that list all packages
+
+# man apt
+# dpkg -l works too

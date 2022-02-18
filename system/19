@@ -1,0 +1,6 @@
+systemctl --type=service
+
+# List all services which are started at boot time and name this kind of services
+
+# also sudo systemctl list-unit-files --type=service --state=enabled --all
+# https://net2.com/how-to-list-start-and-stop-services-at-boot-time-in-linux-ubuntu-debian/
