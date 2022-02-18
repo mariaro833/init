@@ -1,3 +1,4 @@
 netstat -rn | grep -A 2 Internet: | grep default
 
 # Identifiy the default gateway in the routing table.
+# the default gateway is the address to which packets are sent if there is no specific gateway for a given destination listed

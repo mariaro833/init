@@ -1,4 +1,4 @@
-c2r6p7.hive.fi
+c1r6p7.hive.fi
 
 # IP=$(ipconfig getpacket en0 | grep "yiaddr" | sed 's/^.*= //')
 # nslookup $IP | grep "name" | awk '{print $4}
