@@ -1,4 +1,4 @@
-udo service ssh status
+sudo service ssh status
 
 # https://phoenixnap.com/kb/how-to-enable-ssh-on-debianQ
 # Name the command that determines the state of the SSH service

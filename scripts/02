@@ -4,17 +4,12 @@ echo "*********DELETE_USER_SCRIPT*********"
 echo  "active now: $(users)"
 read -p "Specify the user to delete:  " user
 
-# Backup user home directory
-sudo mkdir -p /backup/accounts/deleted/
-[ -d /home/$USER ] && tar -zcvf /backup/accounts/deleted/$use.$date.tar.gz /home/$USER || echo "No home directory, no need to backup"
-
 # Stop all running process for the user
-sudo kill -KILL -u $user
-
+check_active=`pgrep -u $user`
+if [ "$check_active != "$NULL ]; then
+	pgrep -u $user | while read PID; do sudo kill -9 $PID;
+done
 # Delete user
-sudo /usr/sbin/userdel -r $user
-read -p "Specify the user to delete:  " user
-
-# Backup user home directory
-sudo mkdir -p /backup/accounts/deleted/
-[ -d /home/$USER ] && tar -zcvf /backup/accounts/deleted/$use.$date.tar.gz /home/$USER || echo "No home directory, no need to backup"
+sudo userdel -r $user
+echo "the active user deleted"
+fi

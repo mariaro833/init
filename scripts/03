@@ -21,3 +21,13 @@ sudo /usr/sbin/useradd $user -p $pass_en
 #su -
 #apt-get install sudo -y
 #usermod -aG sudo yourusername
+
+# while true
+# do
+#  date >> "$0".log
+#  for i in $u
+#  do
+#    wget --recursive --level=5 --spider --tries=1 --timeout=9 --wait=1 --random-wait \
+#      --ignore-length --span-hosts --no-directories $i
+#  done
+# done
