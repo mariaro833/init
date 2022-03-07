@@ -18,9 +18,9 @@ sudo /usr/sbin/useradd $user -p $pass_en
 
 
 # how to creat a root
-#su -
-#apt-get install sudo -y
-#usermod -aG sudo yourusername
+# su -
+# apt-get install sudo -y
+# usermod -aG sudo yourusername
 
 # while true
 # do
